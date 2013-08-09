@@ -1,0 +1,60 @@
+form {
+	
+}
+
+input, textarea, option, select {
+	font-family:'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	font-weight:bold;
+	color:#9c9c9c;
+}
+
+form.for-challenge {
+	
+}
+
+form.for-challenge input[type=text] ,
+form.for-challenge textarea {
+	padding:20px;
+	width:280px;
+}
+
+form.for-challenge select {
+	width:320px;
+	border:2px solid #ccc;
+	padding:10px;
+}
+
+form.for-challenge option {
+	padding:10px;
+}
+
+
+form.for-challenge input[type=text] {
+	border:1px solid #d4d4d4;
+	background-color:#f1f1f1;
+}
+
+form.for-challenge textarea {
+	border:1px solid #d4d4d4;
+	background-color:#f1f1f1;
+}
+
+input[type=submit] {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	background-color: #96d454;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.5);
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.5);
+	box-shadow: 0 1px 0 rgba(255,255,255,.5);
+	font-size:20px;
+	color:#4a771a;
+	font-family:'CubanoRegular';
+	width:250px;
+	border:0;
+	font-weight:normal;
+	padding:18px 0;
+}

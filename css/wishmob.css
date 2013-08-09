@@ -1,0 +1,30 @@
+/* blue = #3973bb*/
+
+h1 {
+	font-family: 'CubanoRegular';
+	color: #ebe9e9;
+	text-shadow: 0 1px 1px rgba(0,0,0,.32);
+}
+
+h2 {
+	font-family: 'CubanoRegular';
+	color:#424242;
+	text-align:left;
+}
+
+#people {
+	
+}
+
+	#people .hero {
+		display:inline-block;
+		margin-right:10px;
+		border:2px solid #3973bb;
+		-webkit-border-radius:27px;
+	}
+	
+	#people .hero img {
+		width:56px;
+		height:56px;
+		-webkit-border-radius:28px;
+	}

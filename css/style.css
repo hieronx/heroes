@@ -1,0 +1,55 @@
+.countdown {
+  background: #a3d54b;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  display: block;
+  width: 180px;
+  height: 60px;
+  padding: 8px 10px 2px 24px;
+  border: 1px solid #5d7d24;
+}
+
+/* timer numbers */
+.timer_numbers {
+	font-size:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-align:left;
+	color:#4e6d19;
+}
+
+#timer_days, #timer_hours, #timer_mins, #timer_seconds {
+	float:left;
+	padding:5px 10px 0 0;
+}
+
+/* timer labels */
+.timer_labels {
+	font-size:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-align:center;
+	color:#f2f2f2;
+}
+
+#timer_days_label {
+	clear:both;
+	float:left;
+	padding:10px 0 0 0;
+}
+
+#timer_hours_label {
+	float:left;
+	padding:10px 0 0 7px;	
+}
+
+#timer_mins_label {
+	float:left;
+	padding:10px 0 0 7px;	
+}
+
+#timer_seconds_label {
+	float:left;
+	padding:10px 0 0 11px;	
+}
